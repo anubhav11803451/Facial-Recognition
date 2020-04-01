@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response
-from camera import VideoCamera
+from camera import VideoCamera # importing VideoCamera class from camera.py
 
 
 app = Flask(__name__)
