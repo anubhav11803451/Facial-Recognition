@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html') # to call the index.html file we have created in template folder
 
 def gen(camera):
     while True:
